@@ -2,31 +2,21 @@
 --------------------------------------------------------------------------------
 # Image Classification with CNNs
 
-This repository showcases two projects focused on image classification using Convolutional Neural Networks (CNNs). It demonstrates various techniques for data preprocessing, model training, evaluation, and deployment, including TensorFlow Lite conversion for mobile and edge devices.
-
----
-
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Projects](#projects)
-  - [Fashion MNIST Classification](#1-fashion-mnist-classification)
-  - [Fruit Classification and Deployment](#2-fruit-classification-and-deployment)
-- [Model Deployment](#model-deployment)
-- [Results and Visualization](#results-and-visualization)
-- [Future Improvements](#future-improvements)
+This repository demonstrates the use of Convolutional Neural Networks (CNNs) for image classification tasks. It covers the entire workflow, from data preprocessing to model training, evaluation, and deployment using TensorFlow Lite for edge-device compatibility.
 
 ---
 
 ## Project Overview
 
-This repository is a collection of two image classification projects, demonstrating how CNNs can effectively extract features and classify images:
+This project focuses on building robust CNN models for two distinct image classification tasks:
 
-1. **Fashion MNIST Classification**: Classifies images from the Fashion MNIST dataset into 10 categories, such as T-shirts, trousers, dresses, etc.
-2. **Fruit Classification and Deployment**: Classifies images of apples, bananas, and oranges using a custom dataset. The model is converted into a TensorFlow Lite format for deployment on mobile and edge devices.
+1. **Fashion MNIST Dataset**:  
+   A standard dataset of grayscale images representing 10 different categories of clothing (e.g., T-shirts, trousers, sneakers). The model demonstrates preprocessing, training, and evaluation techniques on this popular benchmark dataset.
 
-Both projects emphasize modularity, robust architecture, and scalability for various classification tasks.
+2. **Fruits Dataset**:  
+   A custom dataset of colored images representing three fruit classes: apples, bananas, and oranges. This task emphasizes dataset preparation, visualization, and training with a focus on converting the model to TensorFlow Lite for efficient deployment on mobile or edge devices.
+
+Both tasks showcase end-to-end workflows, making this repository an excellent learning resource for understanding CNNs in action. The project is designed to be modular and extendable for other datasets.
 
 ---
 
@@ -39,9 +29,21 @@ Both projects emphasize modularity, robust architecture, and scalability for var
 
 ---
 
+## Features
+
+- **End-to-End Workflow**: Covers data preprocessing, model evaluation, and deployment processes.
+- **State-of-the-Art Architectures**: Includes CNNs optimized for dataset-specific requirements.
+- **Deployment Ready**: Converts trained models into TensorFlow Lite format for lightweight inference.
+- **Visualization**: Displays training progress, evaluation metrics, and predictions.
+- **Custom Dataset Support**: Easily adaptable to other datasets for similar classification tasks.
+
+---
+
 ## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Samadhankhomne/Image-classification-with-cnn.git
-   cd Image-classification-with-cnn
+Follow these instructions to get a copy of the project up and running on your local machine:
+
+### Clone the Repository
+```bash
+git clone https://github.com/Samadhankhomne/Image-classification-with-cnn.git
+cd Image-classification-with-cnn
